@@ -1,4 +1,4 @@
-# This script was written to work with the output of GetTweets.py script. It works on 2 columns in the tweets file: " screen_name" and " text" (note the blankspaces)
+# This script works on 2 columns in the tweets file received through the Twitter API: " screen_name" and " text" (note the blankspaces inserted by Twitter)
 # To make it work with the output of GetOldTweets3, change the label username to screenname with a leading blankspace, and add a leading blankspace to the label text
 # Line 94 has the input file name tweets.csv (change it as needed)
 # Output file network_edges.csv has two columns.
